@@ -1,10 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+/* Navi */
 .bg {
    background-image: url("../img/4kfood.jpg");
    width: 100%;
    height: 1000px;
    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.En {
+    color: aliceblue;
 }
 .bg-trans{
-    background-color: rgba(15, 15, 15, 0.205);
+    background-color: rgba(68, 67, 67, 0);
+}
+.chillies {
+    width: 100%;
+}
+.toggle-bar{
+    color: #ffee00 ;
+}
+/* footer */
 
+footer{
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: rgba(238, 232, 232, 0.75);
+}
+
+footer .social-links a{
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.footer-bottom{
+
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
