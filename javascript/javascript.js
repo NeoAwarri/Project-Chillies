@@ -13,12 +13,15 @@ function stickyMenu(){
 
 
 let foodArray=[
-    { id:1,foodName:"pizza",price:12,imageUrl:"img/pizza.jpg"},
-    { id:2,foodName:"pizza",price:11,imageUrl:"img/pizza.jpg"},
-    { id:3,foodName:"pizza",price:14,imageUrl:"img/pizza.jpg"},
-    { id:4,foodName:"pizza",price:15,imageUrl:"img/pizza.jpg"},
-    { id:5,foodName:"pizza",price:18,imageUrl:"img/pizza.jpg"},
-    { id:6,foodName:"pizza",price:12,imageUrl:"img/pizza.jpg"}
+    { id:1,foodName:"pizza peperoni",price:12,imageUrl:"img/foods/1.jpg"},
+    { id:2,foodName:"Amazing salad",price:5.4,imageUrl:"img/foods/2.jpg"},
+    { id:3,foodName:"Rice and Chiken",price:15.5,imageUrl:"img/foods/3.jpg"},
+    { id:4,foodName:"hamburger",price:8,imageUrl:"img/foods/4.jpg"},
+    { id:5,foodName:"coffe",price:1.5,imageUrl:"img/foods/5.jpg"},
+    { id:6,foodName:"Black tea",price:1.5,imageUrl:"img/foods/6.jpg"},
+    { id:7,foodName:"Kabab",price:18,imageUrl:"img/foods/7.jpg"},
+    { id:8,foodName:"Special pizza",price:14,imageUrl:"img/foods/8.jpg"},
+    { id:8,foodName:"Special pizza",price:14,imageUrl:"img/foods/8.jpg"}
 ]
 let orderQnty=$.getElementById('order-qnty');
 let showFoodMenu=$.getElementById('content-menu');
